@@ -1,0 +1,8 @@
+name: Output information using agithub contexts
+on: workflow_dispatch
+jobs:
+    info:
+        runs-on: ubuntu-latest
+        steps: 
+            -name: Output github contexts
+             run: echo"${{github}}"
