@@ -4,5 +4,5 @@ jobs:
     info:
         runs-on: ubuntu-latest
         steps: 
-            -name: Output github contexts
-             run: echo "${{github}}"
+            - name: Output github contexts
+              run: echo "${{github}}"
